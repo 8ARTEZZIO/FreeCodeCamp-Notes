@@ -24,3 +24,35 @@ public String C() {
     return "friends.";
 }
 ```
+
+### String Reversal.
+
+```javascript
+public String reverseString(String input) {
+    // What is the base case?
+    if (input.equals("")) {
+        return "";
+    }
+    // What is the smallest amount of work I can do in each iteration?
+    return reverseString(input.substring(1)) + input.charAt(0);
+}
+```
+
+### Palindrome.
+
+```javascript
+public static boolean isPalindrome(String input) {
+    // Define the base-case / stopping condition
+    if (input.length() == 0 || input.length() == 1) {
+        return true;
+    }
+
+    // Do some work to shrink the problem space
+    is (input.charAt(0) == input.charAt(input.length() - 1)) {
+        return isPalindrome(input.substring(1, input.length() - 1));
+    }
+
+    // Additional base-case to handle non-palindromes
+    return false;
+}
+```
