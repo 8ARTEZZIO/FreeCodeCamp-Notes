@@ -173,9 +173,7 @@ public class MergeSrot {
             data[i] = temp[i - start];
         }     
 }
+```
+# Linked Lists.
 
-
-
-
-
-
+## Linked List Reversal.
