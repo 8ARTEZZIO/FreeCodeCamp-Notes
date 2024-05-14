@@ -54,7 +54,36 @@ public static boolean isPalindrome(String input) {
 
     // Additional base-case to handle non-palindromes
     return false;
+  }
+```
+
+# Recursion with numbers.
+
+## Decimal To Binary.
+
+```javascript
+public static String findBinary(int decimal, String result) {
+    if (decimal == 0)
+        return result;
+
+    result = decimal % 2 + result;
+    return findBinary(decimal / 2, result);
+  }
+```
+
+## Sum of Natural Numbers.
+
+```javascript
+public static int recursiveSummation(int inputNumber) {
+    if (inputNumber <= 1)
+        return inputNumber;
+    return inputNumber + recursiveSummation(inputNumber - 1);
 }
 ```
 
-## Recurion with numbers
+## Divide & Conquer
+
+1. Divide problem into several smaller subproblems.                                Normally, the subproblems are similar to the original
+2. Conquer the subproblems by solving them recursively                             Base case: solve small enough problems by brute force
+3. Combine the solutions to get a solution to the subproblems                      And finally a solution to the original problem
+4. Divide and Conquer algorithms are normally recursive
