@@ -4,4 +4,5 @@
 
 | Pros | Cons |
 | -------- | -------- |
-| Content 1| Content 2|
+| 1. Brides the gap between elegance and complexity | 1. Slowness due to CPU overhead|
+|2.|2.|
