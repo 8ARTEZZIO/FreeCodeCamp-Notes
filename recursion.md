@@ -1,5 +1,5 @@
-## What. Is Recurion?
-Recursion is a **method** that **calls itself** and is conditioned on some **stop parameter**.
+# What. Is Recurion?
+## Recursion is a **method** that **calls itself** and is conditioned on some **stop parameter**.
 
 | Pros | Cons |
 | -------- | -------- |
@@ -56,3 +56,5 @@ public static boolean isPalindrome(String input) {
     return false;
 }
 ```
+
+## Recurion with numbers
