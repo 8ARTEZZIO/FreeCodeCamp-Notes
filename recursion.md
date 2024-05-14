@@ -81,9 +81,30 @@ public static int recursiveSummation(int inputNumber) {
 }
 ```
 
-## Divide & Conquer
+## Divide & Conquer.
 
 1. Divide problem into several smaller subproblems.                                Normally, the subproblems are similar to the original
 2. Conquer the subproblems by solving them recursively                             Base case: solve small enough problems by brute force
 3. Combine the solutions to get a solution to the subproblems                      And finally a solution to the original problem
 4. Divide and Conquer algorithms are normally recursive
+
+### Binary Search.
+
+```javascript
+public static int binarySearch(int[] A, int left, int right, int x) {
+    if (left > right) {
+        return -1;
+    }
+    int mid = (left + right) / 2;
+
+    if (x == A[mid]) {
+        return mid;
+    }
+
+    if (x < A[mid]) {
+        return binarySearch(A, left, mid - 1, x);
+    }
+
+    return binary Search(A, mid + 1, right, x);
+}
+```
