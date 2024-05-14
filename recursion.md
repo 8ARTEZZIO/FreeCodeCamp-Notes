@@ -1,4 +1,4 @@
-# What. Is Recurion?
+# What. Is Recursion?
 ## Recursion is a **method** that **calls itself** and is conditioned on some **stop parameter**.
 
 | Pros | Cons |
