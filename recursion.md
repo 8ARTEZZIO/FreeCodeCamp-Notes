@@ -9,3 +9,18 @@ Recursion is a **method** that **calls itself** and is conditioned on some **sto
 |4. Works really well with recursive structures like trees and graphs||
 
 ### Call Stack.
+
+```javascript
+// Expected output = "hello my friends."
+public String A() {
+    return "hello " + B();
+}
+
+public String B() {
+    return "my " + C();
+}
+
+public String C() {
+    return "friends.";
+}
+```
